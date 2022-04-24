@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="9"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ID"
+        android:inputType="number"
+        android:textColor="#100F0F"
+        android:textColorHint="@color/black"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+
+        android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textColor="#100F0F"
+        android:textColorHint="@color/black"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/Surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Surname"
+        android:inputType="textPersonName"
+        android:textColor="#100F0F"
+        android:textColorHint="@color/black"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/Marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:drawableLeft="@android:drawable/ic_menu_sort_alphabetically"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Marks "
+        android:inputType="number"
+        android:textColor="#100F0F"
+        android:textColorHint="@color/black"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:drawableLeft="@android:drawable/ic_menu_agenda"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Description"
+        android:inputType="text"
+        android:textColor="#100F0F"
+        android:textColorHint="@color/black"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:drawableLeft="@android:drawable/ic_menu_sort_by_size"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:textColor="#100F0F"
+        android:textColorHint="@color/black"
+        android:textStyle="normal|italic" />
+
+
+
+<Button
+    android:id="@+id/button2"
+
+    android:layout_width="170dp"
+    android:textStyle="normal|italic"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:background="@drawable/shape"
+    android:layout_marginTop="15dp"
+    android:onClick="k"
+    android:text="VIEW"
+    android:textColor="@color/black"
+    android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="170dp"
+        android:textStyle="normal|italic"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onclick"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="ADD"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:onClick="k"
+        android:text="UPDATE"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|italic" />
+    <Button
+        android:id="@+id/button6"
+
+        android:layout_width="170dp"
+        android:textStyle="normal|italic"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/shape"
+        android:layout_marginTop="15dp"
+        android:onClick="k"
+        android:text="COUNT"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>
